@@ -20,9 +20,9 @@ const Platform = ({id="", name="", value="", notification="", del}) => {
                 <div className='platform-id'>
                     ID: {id}
                 </div>
-                <div>
-                    <i onClick={() => (setOpen(true))} className="fa fa-remove platform-del"></i>
-                </div>
+                {/* <div> */}
+                    {/* <i onClick={() => (setOpen(true))} className="fa fa-times-circle-o"></i> */}
+                {/* </div> */}
             </div>
             <Modal isOpen={isOpen} onClose={() => setOpen(false)} title={"Удаление самолёта из бд"}>
                 <div className="platform-bottom">

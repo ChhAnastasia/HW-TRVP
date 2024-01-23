@@ -1,19 +1,9 @@
 :root {
-  --primary: #007aff;
-  --secondary: #00cbd2;
-  --accent: #ff521f;
-  --background: #ffffff;
-  --text: #333;
+  --primary: #000d9ee1;
+  --secondary: #5155bb;
+  --accent: #0f1376;
+  --background: #d8e5ff;
+  --text: #000000;
   --border: #1d3557;
-  --grey: #ccc;
-}
-
-.dark-theme{
-  --primary: #004fa3;
-  --secondary: #00cbd2;
-  --accent: #ff521f;
-  --background: #0e1d31;
-  --text: #ffffff;
-  --border: #1d3557;
-  --grey: #ccc;
+  --grey: #6c6c6c;
 }

@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "./accordion.css"
+import Button from '../button/button';
+import axios from 'axios';
 
 const Accordion = ({children, header, footer}) => {
   const [isOpen, setOpen] = useState(false)
